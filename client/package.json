@@ -18,7 +18,11 @@
     "react-image": "^1.5.1",
     "react-moment": "^0.7.0",
     "react-redux": "^5.0.7",
+<<<<<<< HEAD
     "react-router-dom": "^5.0.1",
+=======
+    "react-router-dom": "^4.4.0",
+>>>>>>> e6b49cd9ce2c866e4856c76f71dcf971a14b3730
     "react-scripts": "^1.1.4",
     "react-youtube": "^7.8.0",
     "redux": "^3.7.2",

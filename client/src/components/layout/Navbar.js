@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import logo from '../../images/transitionLogo2.svg'
+=======
+import logo from '../../images/logo.png';
+>>>>>>> e6b49cd9ce2c866e4856c76f71dcf971a14b3730
 //import PropTypes from 'prop-types';
 //import { connect } from 'react-redux';
 //import { logoutUser } from '../../actions/authActions';
@@ -67,8 +71,14 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-0">
         <div className="container">
           <Link className="navbar-brand" to="/">
+<<<<<<< HEAD
             <img src={logo} alt="Logo" />
           </Link>
+=======
+            <img src={logo} alt="logo" width="30px"/>
+          </Link>
+          <h2>EOS TRANSITION DAO</h2>
+>>>>>>> e6b49cd9ce2c866e4856c76f71dcf971a14b3730
           <button
             className="navbar-toggler"
             type="button"
@@ -80,6 +90,7 @@ class Navbar extends Component {
 
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className='navbar-nav ml-auto'>
+<<<<<<< HEAD
               <li className="nav-item">
                 <input type="text" placeholder="Search.."></input>
 
@@ -94,6 +105,8 @@ class Navbar extends Component {
                   Login
                 </Link>
               </li>
+=======
+>>>>>>> e6b49cd9ce2c866e4856c76f71dcf971a14b3730
             </ul>
             {/*isAuthenticated ? authLinks : guestLinks*/}
           </div>
