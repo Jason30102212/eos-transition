@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo.png';
 //import PropTypes from 'prop-types';
 //import { connect } from 'react-redux';
 //import { logoutUser } from '../../actions/authActions';
@@ -66,8 +67,9 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-0">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            LOGO
+            <img src={logo} alt="logo" width="30px"/>
           </Link>
+          <h2>EOS TRANSITION DAO</h2>
           <button
             className="navbar-toggler"
             type="button"
@@ -79,20 +81,6 @@ class Navbar extends Component {
 
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className='navbar-nav ml-auto'>
-              <li className="nav-item">
-                <input type="text" placeholder="Search.."></input>
-
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to='/register'>
-
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/login'>
-                  Login
-                </Link>
-              </li>
             </ul>
             {/*isAuthenticated ? authLinks : guestLinks*/}
           </div>
